@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 130px;
+    margin-left: 360px;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-container img {
+    position: absolute;
+    top: 40px;
+    left: 59px;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.name {
+    position: absolute;
+    top: 180px;
+    left: 82px;
+}
+
+.job-position {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.photo-backgrond-color {
+    background-color:  rgb(222, 231, 237);
+    height: 250px;
+    width: 250px;
+}
+
+.photo-backgrond-color-2 {
+    background-color: beige;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
